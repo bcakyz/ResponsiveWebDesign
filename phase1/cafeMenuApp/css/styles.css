@@ -1,0 +1,132 @@
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+body {
+  /* background-color: burlywood; */
+  background-image: url(https://images.unsplash.com/photo-1447933601403-0c6688de566e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1661&q=80);
+  font-family: sans-serif;
+  padding: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+h2 {
+  font-family: Impact, serif;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  /* height: 3px; */
+  height: 2px;
+  background-color: #caa3a3;
+  border-color: #caa3a3;
+}
+
+/* div {
+  width: 80%; 
+  background-color: burlywood;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.menu {
+  width: 80%;
+  /* From https://css.glass */
+  background: rgba(100, 37, 2, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(16px);
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+  padding: 20px;
+  max-width: 500px;
+}
+
+.item p {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.flavor,
+.dessert {
+  text-align: left;
+  width: 75%;
+}
+
+/* width of .price is set to (prefered size)% -1% due to 
+auto formatting automatically adds an extra \n character 
+end of each p element */
+
+.price {
+  text-align: right;
+  width: 24%;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -25px;
+  width: 46px;
+}
+
+p,
+h2,
+h1 {
+  color: aliceblue;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  /* color: grey; */
+  color: white;
+}
+
+a:hover {
+  color: #caa3a3;
+}
+
+a:active {
+  /* color: white; */
+  color: #caa3a3;
+}
+
+.address {
+  margin-bottom: 5px;
+}
